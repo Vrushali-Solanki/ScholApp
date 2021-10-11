@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ScActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="80dp"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="List of Documents"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="26dp"
+        android:textStyle="bold" />
+
+    <ImageButton
+        android:id="@+id/sc_arrow"
+        android:layout_width="35dp"
+        android:layout_height="30dp"
+        android:background="@drawable/ic_baseline_arrow_forward_24"
+        android:layout_alignParentRight="true"
+        android:foregroundGravity="center_horizontal"
+        android:layout_marginTop="15dp"
+        android:layout_marginRight="10dp"
+        android:padding="5dp"
+        />
+
+    <View
+        android:id="@+id/view_sc"
+        android:layout_width="match_parent"
+        android:layout_height="0.8dp"
+        android:layout_marginTop="65dp"
+        android:background="#E65100" />
+
+    <ListView
+        android:id="@+id/list_sc"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/view_sc"
+        android:layout_marginTop="15dp" />
+
+    <TextView
+        android:id="@+id/text_sc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/list_sc"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="5dp"
+        android:gravity="center"
+        android:text="All Documents should be True Copy(Attested)"
+        android:textColor="@color/black"
+        android:textStyle="bold" />
+
+<!--    <TextView-->
+<!--        android:id="@+id/next_sc"-->
+<!--        android:layout_width="150dp"-->
+<!--        android:layout_height="50dp"-->
+<!--        android:layout_below="@+id/text_sc"-->
+<!--        android:layout_marginLeft="110dp"-->
+<!--        android:layout_marginTop="30dp"-->
+<!--        android:background="@drawable/circle"-->
+<!--        android:gravity="center"-->
+<!--        android:text="Next"-->
+<!--        android:textColor="@color/black"-->
+<!--        android:textSize="18dp">-->
+
+<!--    </TextView>-->
+
+</RelativeLayout>

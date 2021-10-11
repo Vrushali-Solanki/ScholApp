@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AboutFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SCHOLApp is an user-friendly android application for all the eligibile scholarship students.\nThe main purpose of this app is to answer all queries/ difficulties students often face.\nAlso, it has some useful features like video tutorial, list of required documents and its sources.\nAll in all, SCHOLApp is for the students to conviniently fill their respective forms with ease."
+        android:textSize="20dp"
+        android:textColor="@color/black"
+        android:padding="5dp"/>
+
+</FrameLayout>

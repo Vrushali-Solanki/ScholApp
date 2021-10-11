@@ -1,0 +1,70 @@
+<resources>
+    <string name="app_name">ScholApp Demo</string>
+    <string name="title_activity_nav">NavActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <!-- Preference Titles -->
+    <string name="messages_header">Messages</string>
+    <string name="sync_header">Sync</string>
+
+    <!-- Messages Preferences -->
+    <string name="signature_title">Your signature</string>
+    <string name="reply_title">Default reply action</string>
+
+    <!-- Sync Preferences -->
+    <string name="sync_title">Sync email periodically</string>
+    <string name="attachment_title">Download incoming attachments</string>
+    <string name="attachment_summary_on">Automatically download attachments for incoming emails
+    </string>
+    <string name="attachment_summary_off">Only download attachments when manually requested</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="profile">Profile</string>
+    <string name="documents">List of Documents</string>
+    <string name="about">About App</string>
+    <string name="contact">Contact Details</string>
+    <string name="logout">User Logout</string>
+    <string name="setting">Settings</string>
+    <string name="profiles">Profile Update</string>
+    <string name="document">FAQs</string>
+    <string name="settings">Settings</string>
+    <string name="contacts">Contacts</string>
+    <string name="abouts">About</string>
+    <string name="log">Logout</string>
+    <string name="important_dates">Important Dates</string>
+    <string name="about_fragment">About Fragment</string>
+    <string name="contact_fragment">Contact Fragment</string>
+    <string name="contactss">Contact</string>
+    <string name="title_activity_intro">FullscreenActivity</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="contact_web"> <a href="#">https://mahadbtmahait.gov.in/</a></string>
+    <string name="contact_web2"> <a href="#">https://mahadbtmahait.gov.in/Grievance/Grievance</a></string>
+    <string name="contact_web3"> <a href="#">8108518740</a></string>
+    <string name="contact_web4"> <a href="#">18001208040</a></string>
+    <string name="freshapplicant1"><a href="#">https://youtu.be/1zYEySYQCFk</a></string>
+    <string name="freshapplicant2"><a href="#">https://youtu.be/yEORAFhQiIs</a></string>
+    <string name="grievance"><a href="#">https://youtu.be/yfaqfSAzwrs</a></string>
+    <string name="redeem"><a href="#">https://youtu.be/Hbmj6QWjCyE</a></string>
+    <string name="renewal"><a href="#">https://youtu.be/h-MEc95a3w4</a></string>
+    <string name="reapply"><a href="#">https://youtu.be/tftkLqUJO9o</a></string>
+    <string name="aadhar_already"><a href="#">https://youtu.be/RHmhMMEvYao</a></string>
+    <string name="aadhar_to_bank"><a href="#">https://youtu.be/GvmJ6pZ73oI</a></string>
+    <string name="EBC"><a href="#">https://youtu.be/ir5kb43Y9KU </a></string>
+    <string name="EBC_diploma"><a href="#">https://youtu.be/TfFtUj_AQLc</a></string>
+    <string name="OBC"><a href="#">https://youtu.be/9CaKzQ9y-nE</a></string>
+    <string name="VJNT"><a href="#">https://youtu.be/etP_8TaEV5g</a></string>
+    <string name="SC"><a href="#">https://youtu.be/7OesyVFvAxk </a></string>
+    <string name="ST"><a href="#">https://youtu.be/IKhrmuVkWnQ </a></string>
+    <string name="forgot_password"><a href="#">Forgot Password?</a></string>
+
+
+</resources>

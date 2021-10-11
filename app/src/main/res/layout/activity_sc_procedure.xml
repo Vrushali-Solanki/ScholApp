@@ -1,0 +1,397 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MinorityProcedureActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            >
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Video for Fresh Applicant"
+                android:textSize="20dp"
+                android:textColor="@color/black"
+                android:padding="10dp"
+                android:layout_marginLeft="3dp"
+                android:layout_marginTop="10dp"
+                android:textAlignment="viewStart"
+                android:layout_gravity="start"
+                />
+
+        </LinearLayout>
+
+
+
+        <LinearLayout android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_marginTop="40dp"
+            >
+
+            <TextView
+                android:id="@+id/sc_tv1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/freshapplicant1"
+                android:textSize="20dp"
+                android:textColor="@color/black"
+                android:padding="10dp"
+                android:layout_marginLeft="3dp"
+                android:textAlignment="viewStart"
+                android:layout_gravity="start"
+                />
+
+
+
+        </LinearLayout>
+
+        <LinearLayout android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_marginTop="70dp"
+            >
+
+            <TextView
+                android:id="@+id/sc_tv2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/freshapplicant2"
+                android:textSize="20dp"
+                android:textColor="@color/black"
+                android:padding="10dp"
+                android:layout_marginLeft="3dp"
+                android:textAlignment="viewStart"
+                android:layout_gravity="start"
+                />
+
+        </LinearLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="#8D000000"
+            android:layout_marginTop="115dp"
+            />
+
+        <LinearLayout android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_marginTop="120dp"
+            >
+
+            <TextView
+                android:id="@+id/minority_tv3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Video on How to fill Grievances"
+                android:textSize="20dp"
+                android:textColor="@color/black"
+                android:padding="10dp"
+                android:layout_marginLeft="3dp"
+                android:textAlignment="viewStart"
+                android:layout_gravity="start"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_marginTop="145dp"
+            >
+
+            <TextView
+                android:id="@+id/sc_tv3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/grievance"
+                android:textSize="20dp"
+                android:textColor="@color/black"
+                android:padding="10dp"
+                android:layout_marginLeft="3dp"
+                android:textAlignment="viewStart"
+                android:layout_gravity="start"
+                />
+
+        </LinearLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="#8D000000"
+            android:layout_marginTop="190dp"
+            />
+
+        <LinearLayout android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_marginTop="190dp"
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Video on how to redeem amount"
+                android:textSize="20dp"
+                android:textColor="@color/black"
+                android:padding="10dp"
+                android:layout_marginLeft="3dp"
+                android:textAlignment="viewStart"
+                android:layout_gravity="start"
+                />
+
+        </LinearLayout>
+        <LinearLayout android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_marginTop="220dp"
+            >
+
+            <TextView
+                android:id="@+id/sc_tv4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/redeem"
+                android:textSize="20dp"
+                android:textColor="@color/black"
+                android:padding="10dp"
+                android:layout_marginLeft="3dp"
+                android:textAlignment="viewStart"
+                android:layout_gravity="start"
+                />
+
+        </LinearLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="#8D000000"
+            android:layout_marginTop="260dp"
+            />
+        <LinearLayout android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_marginTop="260dp"
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Video on how to reapply for the scholarship"
+                android:textSize="20dp"
+                android:textColor="@color/black"
+                android:padding="10dp"
+                android:layout_marginLeft="3dp"
+                android:textAlignment="viewStart"
+                android:layout_gravity="start"
+                />
+
+        </LinearLayout>
+        <LinearLayout android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_marginTop="300dp"
+            >
+
+            <TextView
+                android:id="@+id/sc_tv5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/reapply"
+                android:textSize="20dp"
+                android:textColor="@color/black"
+                android:padding="10dp"
+                android:layout_marginLeft="3dp"
+                android:textAlignment="viewStart"
+                android:layout_gravity="start"
+                />
+
+        </LinearLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="#8D000000"
+            android:layout_marginTop="340dp"
+            />
+        <LinearLayout android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_marginTop="330dp"
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Video on how to solve if Aadhaar Number already exists"
+                android:textSize="20dp"
+                android:textColor="@color/black"
+                android:padding="10dp"
+                android:layout_marginLeft="3dp"
+                android:textAlignment="viewStart"
+                android:layout_gravity="start"
+                />
+
+        </LinearLayout>
+        <LinearLayout android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_marginTop="380dp"
+            >
+
+            <TextView
+                android:id="@+id/sc_tv6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/aadhar_already"
+                android:textSize="20dp"
+                android:textColor="@color/black"
+                android:padding="10dp"
+                android:layout_marginLeft="3dp"
+                android:textAlignment="viewStart"
+                android:layout_gravity="start"
+                />
+
+        </LinearLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="#8D000000"
+            android:layout_marginTop="420dp"
+            />
+        <LinearLayout android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_marginTop="420dp"
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Video on how link Aadhaar with Bank Account"
+                android:textSize="20dp"
+                android:textColor="@color/black"
+                android:padding="10dp"
+                android:layout_marginLeft="3dp"
+                android:textAlignment="viewStart"
+                android:layout_gravity="start"
+                />
+
+        </LinearLayout>
+        <LinearLayout android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_marginTop="470dp"
+            >
+
+            <TextView
+                android:id="@+id/sc_tv7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/aadhar_to_bank"
+                android:textSize="20dp"
+                android:textColor="@color/black"
+                android:padding="10dp"
+                android:layout_marginLeft="3dp"
+                android:textAlignment="viewStart"
+                android:layout_gravity="start"
+                />
+
+        </LinearLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="#8D000000"
+            android:layout_marginTop="510dp"
+            />
+
+        <LinearLayout android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_marginTop="510dp"
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Video on SC form filling"
+                android:textSize="20dp"
+                android:textColor="@color/black"
+                android:padding="10dp"
+                android:layout_marginLeft="3dp"
+                android:textAlignment="viewStart"
+                android:layout_gravity="start"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_marginTop="540dp"
+            >
+
+            <TextView
+                android:id="@+id/sc_tv8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/SC"
+                android:textSize="20dp"
+                android:textColor="@color/black"
+                android:padding="10dp"
+                android:layout_marginLeft="3dp"
+                android:textAlignment="viewStart"
+                android:layout_gravity="start"
+                />
+
+        </LinearLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="#8D000000"
+            android:layout_marginTop="580dp"
+            />
+        <LinearLayout android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_marginTop="580dp"
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Video on ST form filling"
+                android:textSize="20dp"
+                android:textColor="@color/black"
+                android:padding="10dp"
+                android:layout_marginLeft="3dp"
+                android:textAlignment="viewStart"
+                android:layout_gravity="start"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_marginTop="610dp"
+            >
+
+            <TextView
+                android:id="@+id/sc_tv9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/ST"
+                android:textSize="20dp"
+                android:textColor="@color/black"
+                android:padding="10dp"
+                android:layout_marginLeft="3dp"
+                android:textAlignment="viewStart"
+                android:layout_gravity="start"
+                />
+
+        </LinearLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="#8D000000"
+            android:layout_marginTop="660dp"
+            />
+
+    </RelativeLayout>
+
+
+</ScrollView>

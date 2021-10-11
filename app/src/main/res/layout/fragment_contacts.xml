@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ContactsFragment"
+    >
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Website :"
+            android:textSize="20dp"
+            android:textColor="@color/black"
+            android:padding="10dp"
+            android:layout_marginLeft="3dp"
+            android:layout_marginTop="10dp"
+            android:textAlignment="viewStart"
+            android:layout_gravity="start"
+            />
+
+    </LinearLayout>
+
+
+
+    <LinearLayout android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_marginTop="40dp"
+        >
+
+        <TextView
+            android:id="@+id/contact_tv1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/contact_web"
+            android:textSize="20dp"
+            android:textColor="@color/black"
+            android:padding="10dp"
+            android:layout_marginLeft="3dp"
+            android:textAlignment="viewStart"
+            android:layout_gravity="start"
+            />
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="#8D000000"
+        android:layout_marginTop="85dp"
+        />
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Admin Contact Number :"
+            android:textSize="20dp"
+            android:textColor="@color/black"
+            android:padding="10dp"
+            android:layout_marginLeft="3dp"
+            android:layout_marginTop="100dp"
+            android:textAlignment="viewStart"
+            android:layout_gravity="start"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="130dp">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/contact_web3"
+            android:textSize="20dp"
+            android:autoLink="phone"
+            android:textColor="@color/black"
+            android:padding="10dp"
+            android:layout_marginLeft="3dp"
+            android:layout_marginTop="150dp"
+            android:textAlignment="viewStart"
+            android:layout_gravity="start"
+            />
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="#8D000000"
+        android:layout_marginTop="170dp"
+        />
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="190dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="MahaDBT Toll-Free Number : "
+            android:textSize="20dp"
+            android:textColor="@color/black"
+            android:padding="10dp"
+            android:layout_marginLeft="3dp"
+            android:layout_marginTop="200dp"
+            android:textAlignment="viewStart"
+            android:layout_gravity="start" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="220dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/contact_web4"
+            android:textSize="20dp"
+            android:textColor="@color/black"
+            android:autoLink="phone"
+            android:padding="10dp"
+            android:layout_marginLeft="3dp"
+            android:layout_marginTop="250dp"
+            android:textAlignment="viewStart"
+            android:layout_gravity="start" />
+
+    </LinearLayout>
+
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="#8D000000"
+        android:layout_marginTop="260dp"
+        />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="280dp">
+
+        <TextView
+            android:id="@+id/contact_tv2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="For further more queries fill out greviances form on the website:-"
+            android:textSize="20dp"
+            android:textColor="@color/black"
+            android:padding="10dp"
+            android:layout_marginLeft="3dp"
+            android:textAlignment="viewStart"
+            android:layout_gravity="start" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="335dp">
+
+        <TextView
+            android:id="@+id/contact_tv3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/contact_web2"
+            android:textSize="20dp"
+            android:textColor="@color/black"
+            android:padding="10dp"
+            android:layout_marginLeft="3dp"
+            android:textAlignment="viewStart"
+            android:layout_gravity="start" />
+
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="#8D000000"
+        android:layout_marginTop="400dp"
+        />
+
+
+
+
+
+
+</FrameLayout>
